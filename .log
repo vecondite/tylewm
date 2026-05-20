@@ -1,0 +1,6 @@
+wm.c: In function ‘main’:
+wm.c:58:86: error: ‘padding’ undeclared (first use in this function); did you mean ‘paddding’?
+   58 |                 draw_windows(dpy, screen_w, screen_h, managed_windows, window_count, padding);
+      |                                                                                      ^~~~~~~
+      |                                                                                      paddding
+wm.c:58:86: note: each undeclared identifier is reported only once for each function it appears in
